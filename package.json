@@ -1,0 +1,16 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "###Quiz app has following features *some instructions are given on first page regarding the quiz. *There is time limit to complete the quiz. *All the questions are objective type. *At the submission of quiz it shows result to the user and provide option to start again.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
