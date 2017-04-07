@@ -41,7 +41,6 @@ function init_quiz() {
   document.getElementById("timer").style.display = 'block'
   document.getElementById('upperdiv').style.display = 'none'
   main_container = document.getElementById("main_container")
-  console.log(main_container)
   div1 = document.createElement("div")
   div1.setAttribute('class', 'questions')
   question = document.createElement("h2")
@@ -121,7 +120,7 @@ function display_questions() {
 }
 
 function checkanswer() {
-  console.log("ok we will")
+  
   choices = document.getElementsByName("choices")
   for (let i = 0; i < choices.length; i++) {
     if (choices[i].checked) {
